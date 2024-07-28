@@ -19,3 +19,4 @@ ffmpeg-python
 gradio
 spaces
 moviepy
+lpip
