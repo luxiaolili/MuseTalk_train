@@ -15,10 +15,10 @@ MuseTalk was trained in latent spaces, where the images were encoded by a freeze
 
 Note that although we use a very similar architecture as Stable Diffusion, MuseTalk is distinct in that it is **NOT** a diffusion model. Instead, MuseTalk operates by inpainting in the latent space with a single step.
 
-![Experiment Model Structure](assert/figs/train.jpg)
+![Experiment Model Structure](assets/figs/train.jpg)
 In the experiment, it was found that when half of the face is masked, if the nose is within the masked area, the generated nose will exhibit differences, leading to flickering in the video. So We try to add the landmark control to the model  and  add lpip loss for the generate face.
 
-![landmark](assert/figs/landmark.jpg)
+![landmark](assets/figs/landmark.jpg)
 
 
 ## Installation
