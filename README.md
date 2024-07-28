@@ -18,6 +18,8 @@ Note that although we use a very similar architecture as Stable Diffusion, MuseT
 ![Experiment Model Structure](assert/figs/train.jpg)
 In the experiment, it was found that when half of the face is masked, if the nose is within the masked area, the generated nose will exhibit differences, leading to flickering in the video. So We try to and the landmark control to the model. We also and lpip loss for the generate face.
 
+![landmark](assert/figs/landmark.jpg)
+
 
 ## Installation
 To prepare the Python environment and install additional packages such as opencv, diffusers, mmcv, etc., please follow the steps below:
